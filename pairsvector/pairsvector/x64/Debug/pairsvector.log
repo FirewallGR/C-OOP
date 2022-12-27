@@ -1,0 +1,23 @@
+﻿  Source.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility(190,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\Users\sskam\OneDrive\Рабочий стол\2 Курс\АиСД\C-OOP\pairsvector\pairsvector\Source.cpp(14): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::string,float>::pair<const char(&)[1],int,0>(_Other1,_Other2 &&) noexcept(false)"
+          with
+          [
+              _Other1=const char (&)[1],
+              _Other2=int
+          ]
+C:\Users\sskam\OneDrive\Рабочий стол\2 Курс\АиСД\C-OOP\pairsvector\pairsvector\Source.cpp(14): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::string,float>::pair<const char(&)[1],int,0>(_Other1,_Other2 &&) noexcept(false)"
+          with
+          [
+              _Other1=const char (&)[1],
+              _Other2=int
+          ]
+  pairsvector.vcxproj -> C:\Users\sskam\OneDrive\Рабочий стол\2 Курс\АиСД\C-OOP\pairsvector\x64\Debug\pairsvector.exe

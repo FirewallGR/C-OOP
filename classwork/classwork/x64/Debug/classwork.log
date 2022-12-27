@@ -1,0 +1,6 @@
+﻿  vectors.cpp
+C:\Users\sskam\OneDrive\Рабочий стол\2 Курс\АиСД\C-OOP\classwork\classwork\vectors.cpp(52,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\sskam\OneDrive\Рабочий стол\2 Курс\АиСД\C-OOP\classwork\classwork\vectors.cpp(94,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\sskam\OneDrive\Рабочий стол\2 Курс\АиСД\C-OOP\classwork\classwork\vectors.cpp(146,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\sskam\OneDrive\Рабочий стол\2 Курс\АиСД\C-OOP\classwork\classwork\vectors.cpp(314,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  classwork.vcxproj -> C:\Users\sskam\OneDrive\Рабочий стол\2 Курс\АиСД\C-OOP\classwork\x64\Debug\classwork.exe

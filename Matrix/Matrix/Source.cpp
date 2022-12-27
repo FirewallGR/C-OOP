@@ -43,9 +43,11 @@ std::vector<std::vector<int>> multiply(std::vector<std::vector<int>> vec1, std::
 	std::vector<std::vector<int>> result;
 	result.assign(vec1.size(), std::vector<int>(vec1.size()));
 	for (int i = 0; i < vec1.size(); i++) {
-		result[i] = {0,0,0,0,0};
 		for (int j = 0; j < vec1.size(); j++) {
-			result[i][j] += vec1[i][j] * vec2[i][j];
+			result[i][j] = 0;
+			for (int k = 0; k < vec1.size(); k++) {
+				result[i][j] += vec1[i][k] * vec2[k][j];
+			}
 		}
 	}
 	return result;
